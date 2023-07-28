@@ -51,3 +51,115 @@ Cancellation Methodology: Attackers use dual signal transmission to cancel out i
 		
 Spimming: SPIM (Spam over Instant Messaging) exploits Instant Messaging platforms and uses IM as a tool to spread spam. A person who generates spam over IM is called Spimmer.
  	 	
+Firewalls and Timestamps
+hping3 -S IP -p 80 --tcp-timestamp
+
+SYN scan on port 50-60
+hping3 -8 50-60 -S IP -V
+
+FIN, PUSH and URG scan on port 80
+hping3 -F -P -U IP -p 80
+
+Scan entire subnet for live host
+hping3 -1 10.0.1.x --rand-dest -I eth0
+
+Intercept all traffic containing HTTP signature
+hping3 -9 HTTP -I eth0 (thats capital i, not L or one)
+
+ICMP ping
+hping3 -1 <IP> (thats a one, not an L)
+
+ACK scan on port 80
+hping3 -A <IP> -p 80
+
+UDP scan on port 80
+hping3 -2 <IP> -p 80
+
+Get initial sequence #
+hping3 <IP> -Q -p 139 -s
+
+SYN flooding a victim
+hping3 -S 192.168.1.254 -p 22 --flood
+
+Which of the following encryption algorithms is a large tweakable symmetric-key block cipher with equal block and key sizes of 256, 512, or 1024 and involves only three operations, that is, addition-rotation-XOR?
+Threefish
+
+RC4 - Stream cipher
+
+shodan is a search engine
+
+The Xmas scan is an old stealth scan technique that bypasses stateful firewalls by clearing the SYN header from TCP packets and replacing it with FIN, PSH, and URG bits or headers. 
+
+IP ID header scanning (also known as idle or dumb scanning) is an extremely effective method of performing stealth scans. The scan is accomplished by using a third system as a proxy to pass requests between the attacker and target without any traffic ever passing directly between the attacker and target systems.
+
+Session splicing is a method used by attackers to intercept and monitor network traffic by inserting their own device between the target server and an authorized device.
+
+MarioNet is a browser-based attack that allows attackers to run malicious code inside users' browsers even after they have closed the webpage or navigated away from the web page on which they got infected
+
+wpa2- enterprise: EAP OR RADIUS
+
+WPA2 - Personal: WPA2 Personal network, a shared passphrase, AES
+
+WPA 2 - AES, CCMP
+Shodan is a search engine specifically designed to scan and index internet-connected devices. It allows users to search for specific devices, such as IoT devices, based on various criteria like manufacturer details, IP addresses, geolocation, and specific vulnerabilities.
+
+The "-sn" switch in Nmap stands for "Ping Scan" or "No Port Scan". It instructs Nmap to perform a host discovery scan without scanning for open ports.
+
+Nmap -sS command is used to perform a TCP SYN scan using Nmap.
+also known as a half-open scan,
+
+Incident triage is the initial phase in the incident response process. It involves assessing and prioritizing incidents based on their potential impact, urgency, and severity. 
+
+The attack that does not directly recover a WEP key and requires at least one data packet from a target Access Point (AP) for initiation is the Chopchop attack. (Fragmentation attack)
+
+HaLow communications in rural areas, and offers low data rates?
+
+Oleid is a Python tool that analyzes OLE files such as MS Office documents to detect specific characteristics that could indicate that the file is suspicious or malicious.
+
+verifier for the certificate authority: Validation authority
+
+The security risk described, where an API accidentally exposes internal variables or objects due to improper binding and filtering based on a whitelist, allowing unauthorized attackers to modify object properties, is known as "Mass assignment."
+
+A certain type of port scanning technique is similar to the TCP SYN scan and can be performed quickly by scanning thousands of ports per second on a fast network that is not obstructed by a firewall, offering a strong sense of security.
+
+SCTP INIT scanning
+
+A multipartite virus is a type of fast-moving malware that attacks a device's boot sector and executable files simultaneously using file infectors or boot infectors.
+
+PetitPotam is a classic NTLM Relay Attack that can potentially be used to attack Windows domain controllers or other Windows servers. 
+
+One of their tools, called Netcraft Web Server Survey, can analyze the HTTP response headers received from a website and provide information about the web server software and, in some cases, the underlying operating system.
+
+*DHCP.MIB: Monitors network traffic between DHCP servers and remote hosts
+*HOSTMIB.MIB: Monitors and manages host resources
+*LNMIB2.MIB: Contains object types for workstation and server services
+*MIB_II.MIB: Manages TCP/IP-based Internet using a simple architecture and system
+*WINS.MIB: For the Windows Internet Name Service (WINS)
+
+DNS rebinding attack:
+bypass a same-origin policy’s security constraints, allowing a malicious web page to communicate or make arbitrary requests to local domains
+
+COM hijacking involves manipulating valid object references in the Component Object Model (COM) infrastructure of Windows. 
+
+The type of external keylogger that works on the principle of converting electromagnetic sound waves into data is an "Acoustic/CAM keylogger."
+
+a cross-protocol weakness and can communicate and initiate an attack on servers supporting recent SSLv3/TLS protocol suites is the "DROWN attack." 	 
+
+The method in which an attacker leverages headers such as Host in the HTTP request message to crack passwords is called the "Attack password reset mechanism."
+
+The scanning technique used by an attacker to check whether a machine is vulnerable to UPnP (Universal Plug and Play) exploits is "SSDP scanning."
+
+The attack described, where an attacker sends emails, IRC chats, tweets, or videos with fraudulent content for hardware updates to the victim, is known as a "Permanent denial-of-service (PDoS) attack."
+In a PDoS attack, also referred to as "bricking" or "phlashing," the attacker intentionally damages the victim's hardware or firmware, rendering it permanently inoperable or requiring significant effort to recover.  	
+
+Dylib hijacking refers to a specific type of dynamic library hijacking attack where an attacker manipulates the dynamic linking process to load a malicious library.
+
+Meltdown is a hardware vulnerability that affects certain Intel and ARM processors, including those deployed by Apple. It allows an attacker to bypass memory isolation mechanisms and access out-of-bounds memory by exploiting speculative execution, a CPU optimization mechanism. 
+
+In this command, the "-sn" flag instructs Nmap to perform a ping scan, while the "-PO" flag specifies that an IP protocol ping scan should be conducted.
+
+Hydra is a network logon cracker - bruteforce username and password.
+
+Sybil- IoT
+
+SHA-1 - 160 bits, 40 hexa char, similar to MD4,MD5.
