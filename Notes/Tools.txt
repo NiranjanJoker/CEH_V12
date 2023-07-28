@@ -1,0 +1,53 @@
+Hyena, SuperScan, and NetScanTools Pro can be used to perform NetBIOS enumeration, whereas OpUtils is an SNMP enumeration tool.
+
+MarioNet Attack: MarioNet is a browser-based attack that runs malicious code inside the browser, and the infection persists even after closing or browsing away from the malicious web page through which the infection has spread.
+
+
+DUHK (Don't Use Hard-coded Keys) is a vulnerability that affects devices using the ANSI X9.31 Random Number Generator (RNG).
+
+DROWN attack is a cross-protocol weakness that can communicate and initiate an attack on servers supporting recent SSLv3/TLS protocol suites
+
+Network-Based Scanner: Network-based scanners are those that interact only with the real machine where they reside and give the report to the same machine after scanning.
+
+> + Agent-Based Scanner: Agent-based scanners reside on a single machine but can scan several machines on the same network.
+
+> + Proxy Scanner: Proxy scanners are the network-based scanners that can scan networks from any machine on the network.
+
+> + **Cluster scanner:** Cluster scanners are similar to proxy scanners, but they can simultaneously perform two or more scans on different machines in the network.
+
+Scope assessment tools provides assessment of the security by testing vulnerabilities in the applications and operating system.
+
+ MANA Toolkit comprises a set of tools that are used by the attackers for creating rogue APs and perform sniffing attacks and MITM attack.
+
+Wired Side Inputs**: Network management software uses this technique to detect rogue APs.
+
+Golden Security Assertion Markup Language (SAML) attacks are implemented to target identity providers on cloud networks such as the Active Directory Federation Service (ADFS) that utilize the SAML protocol for the authentication and authorization of users. Attackers initially gain administrative access to the identity provider’s user profile and exploit token signing certificates to generate forged SAML tokens or responses by manipulating the SAML assertions. This access can be achieved through session hijacking, privilege escalation, or lateral movement via previously exploited vulnerabilities or attacks.
+
+Cloud snooper attacks are triggered at AWS security groups (SGs) to compromise the target server and extract sensitive data stealthily.
+
+Crackle is a tool specifically designed for attacking Bluetooth devices, particularly those using the Bluetooth 4.0 specification and the BLE protocol.
+
+Photon: Attackers can use tools such as Photon to retrieve archived URLs of the target website from archive.org.
+
+
+(T) – Indicates a link to a tool that must be installed and run locally
+(D) – Google Dork (aka Google Hacking)
+(R) – Requires registration
+(M) – Indicates a URL that contains the search term and the URL itself must be edited manually
+
+ElectroRAT, a Go-program-based RAT, is designed to be compatible with common OSes such as Windows, macOS, and Linux. The Trojan is delivered through a downloadable application to cryptocurrency users for the malware creators to steal the private keys of victims and access their crypto wallets.
+
+Whonix is a desktop OS designed for advanced security and privacy. It mitigates the threat of common attack vectors while maintaining usability. Online anonymity is realized via fail-safe, automatic, and desktop-wide use of the Tor network.
+
+ Internet Layer: This is a crucial layer as it serves as the main component in carrying out communication between two endpoints, such as device-to-device, device-to-cloud, device-to-gateway, or back-end data sharing.
+> + Access Gateway Layer: This layer helps to bridge the gap between two endpoints, such as a device and a client. The initial data handling also takes place in this layer. This layer carries out message routing, message identification, and subscribing.
+> + **Middleware Layer**: This is one of the most critical layers that operates in two-way mode. It is responsible for important functions such as data management, device management, and various issues like data analysis, data aggregation, data filtering, device information discovery, and access control.
+> + Edge Technology Layer: This layer consists of all the hardware components, including sensors, radio-frequency identification (RFID) tags, readers, or other soft sensors, and the device itself.
+
+Cancellation Methodology: Attackers use dual signal transmission to cancel out individual spoofed signals by introducing false satellite data. The targeted signals are initially spoofed, where the latter is added with a false component that deceives the targeted GNSS receiver. This method is beneficial to the attacker in terms of extracting the code phase data but limited in terms of obtaining the amplitude matching and carrier phase.
+> + Meaconing Method: Attackers aim to block and re-broadcast the original signals for masking the actual signal toward the targeted receiver. This attack is effective with mono- and multi-antenna meaconers that control multiple satellites and allows attackers to manipulate the original signal with false positioning data and delay timings. Attackers prefer this method when it is impossible for a spoofer to generate a spreading sequence.
+> + **Drag-off Strategy:** Attackers track the receiver’s position and identify the deviation from the original location to a fake one. Attackers initiate this technique by mirroring the original navigation signals, injecting a progressive misalignment between those signals, and forwarding them to the GNSS receiver. The drag-off strategy is an effective attack that protects attackers from detection by radar systems.
+> + Interrupting the Lock Mechanism: Attackers aim to discover a GNSS receiver’s new lock via a faulty signal. Attackers initiate this process by radiating a jamming signal inside the GNSS receiver, where the receiver requests for the next acquisition. Then, a signal simulator is used to generate a false signal, transmit it to the GNSS targeted receiver, and gain the new lock data of the receiver.
+		
+Spimming: SPIM (Spam over Instant Messaging) exploits Instant Messaging platforms and uses IM as a tool to spread spam. A person who generates spam over IM is called Spimmer.
+ 	 	
