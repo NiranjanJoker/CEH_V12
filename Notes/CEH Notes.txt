@@ -1,0 +1,43 @@
+fNmap commands for scanning:
+Scan type, host discovery, timing options, aggressive script scanning
+Nmap cheat sheet is important
+os discovery
+
+ping sends ICMP echo request
+ip spoof detection:
+ipid difference
+TTL (time to live) difference.
+window size congestion.
+
+-sn in nmap signifies no port scan.
+-P_ for different host scan.
+-mtu - maximimizing tranismission unit size
+-sT -Pn --spoof-mac 0
+
+hping3 -S 172.25.49.96 -p 80 -c 5
+
+hping3 172.25.49.123 --udp --rand-source --data 500
+hping3 172.25.49.123 --flood
+
+Metasploit
+
+service postgresql start
+set RHOSTS
+set THREADS
+
+Services and Ports to encumerate slide.
+
+
+DNS Enumeration
+
+dig - domain internet groper
+ns - name server
+axfr - to perform zone transfer
+soa - start of authority
+
+RPC Endpoint mapper port - 135
+
+****************************************
+nmap to detect running in promiscious mode
+
+nmap --script=sniffer-detect 10.0.0.212
